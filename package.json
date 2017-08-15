@@ -1,0 +1,21 @@
+{
+  "name": "learn-mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "mean-stack"
+  ],
+  "author": "ridoansalehnasution",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7",
+    "multer": "^1.3.0",
+    "pug": "^2.0.0-rc.3"
+  }
+}
