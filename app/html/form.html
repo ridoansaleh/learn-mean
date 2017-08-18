@@ -1,0 +1,7 @@
+<form name="imageForm" method="post" ng-submit="saveImage(data, imageForm)" enctype="multipart/form-data">
+	<input type="text" name="description" ng-model="data.description" placeholder="Description">
+	<input type="file" name="image" ng-model="data.image" file-model="myFile" fileread="uploadme">
+	<input type="submit" value="Save">
+</form>
+
+<img src="{{uploadme}}"  width="350" height="210" alt="Image preview...">
